@@ -1,0 +1,19 @@
+/* your global css here */
+
+body, p, h1 {
+  font-family: 'Georgia';
+  text-shadow: #000 1px 0 4px;
+}
+body, html  {
+  height: 100%;
+}
+.bgimg {
+  background-image: url('/img/cafe.jpg');
+  min-height: 100%;
+  background-position: center;
+  background-size: cover;
+}
+main .w3-border-grey {
+  margin: auto;
+  width: 40%;
+}
